@@ -8,6 +8,8 @@ const MenuItem = ({ itemId, itemPrice, itemName, itemDescription }) => {
       <p>{itemDescription}</p>
       <button>Add to Cart</button>
     </div>
+    /*This gives a more html feel and layout for where the itmes
+    are located.  Button does nothing */
   );
 };
 

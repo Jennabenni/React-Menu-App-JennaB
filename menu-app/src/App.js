@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import MenuApp from "./components/MenuApp";
 
+
+/*This is the actual data that was provided in the assignment.  It is the details of the menu, and is here so it can be pulled from another location */
 const menuData = [
   {
     "menuName": "Dinner",
@@ -56,7 +58,7 @@ const menuData = [
     ]
   }
 ];
-
+//menu data appears down here too
 const App = () => {
   return (
     <div className="App">
